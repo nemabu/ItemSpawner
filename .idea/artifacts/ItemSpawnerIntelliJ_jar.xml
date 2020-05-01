@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="ItemSpawnerIntelliJ:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ItemSpawnerIntelliJ_jar</output-path>
+    <root id="archive" name="ItemSpawner.jar">
+      <element id="module-output" name="ItemSpawnerIntelliJ" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,15 @@
+name: ItemSpawner
+version: 1.0.0
+main: main.ItemSpawner
+author: nemabu
+commands:
+  itemspawner:
+    description: Itemspawner command
+permissions:
+  itemspawner.*:
+    description: gives access to all commands
+    children:
+      itemspawner.createitemspawner: true
+  itemspawner.createitemspawner:
+    description: allows for the creation of an itemspawner
+    default: false
